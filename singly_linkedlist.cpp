@@ -132,6 +132,11 @@ int main() {
                 }
             }
             break;
+            case '3':
+            {
+                mhs.traverse();
+            }
+            break;
             default:
             {
                 cout << "\nPilihan salah !\n";
