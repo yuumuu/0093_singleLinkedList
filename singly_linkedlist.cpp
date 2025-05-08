@@ -155,6 +155,10 @@ int main() {
                     cout << endl;
                 }
             }
+            break;
+            case '5':
+            {}
+            break;
             default:
             {
                 cout << "\nPilihan salah !\n";
