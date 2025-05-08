@@ -109,6 +109,19 @@ int main() {
         cout << "5. Keluar\n";
         cout << endl << "Masukkan pilihan (1-5): ";
         cin >> ch;
+
+        switch (ch) {
+            case '1':
+            {
+                mhs.addNode();
+                break;
+            }
+            default:
+            {
+                cout << "\nPilihan salah !\n";
+            }
+            break;
+        }
     } while (ch != '5');
     
     return 0;
