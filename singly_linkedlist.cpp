@@ -101,7 +101,14 @@ int main() {
     char ch;
 
     do {
-        
+        cout << "\nMenu\n";
+        cout << "1. Menambah data kedalam list\n";
+        cout << "2. Menghapus data dari dalam list\n";
+        cout << "3. Menampilkan semua data didalam list\n";
+        cout << "4. Mencari data dalam list\n";
+        cout << "5. Keluar\n";
+        cout << endl << "Masukkan pilihan (1-5): ";
+        cin >> ch;
     } while (ch != '5');
     
     return 0;
